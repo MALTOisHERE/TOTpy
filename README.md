@@ -44,7 +44,7 @@ Create a ```.env``` file in the root directory of the project and add your Flask
 SECRET_KEY=your_secret_key_here
 ```
 
-Replace your_secret_key_here with a strong, random string. This key is used to securely sign session cookies and other sensitive data.
+Replace ```your_secret_key_here``` with a strong, random string. This key is used to securely sign session cookies and other sensitive data.
 
 ### 4. Run the Application
 
