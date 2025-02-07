@@ -1,6 +1,6 @@
-# TOTPY
+# TOTpy
 
-**TOTPY** is a lightweight and interactive authentication interface that demonstrates the implementation of **Time-Based One-Time Password (TOTP)** Multi-Factor Authentication (MFA). It’s designed as a learning tool or a starting point for integrating TOTP-based MFA into your applications.
+**TOTpy** is a lightweight and interactive authentication interface that demonstrates the implementation of **Time-Based One-Time Password (TOTP)** Multi-Factor Authentication (MFA). It’s designed as a learning tool or a starting point for integrating TOTP-based MFA into your applications.
 
 
 ## Features
