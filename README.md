@@ -61,16 +61,6 @@ python3 main.py
 
 The application should now be running at ```http://127.0.0.1:5000/```.
 
-## Usage
-
-#### 1. Sign Up: Create a new account by visiting the signup page.
-
-#### 2. Log In: Use your credentials to log in. If TOTP is enabled, you’ll be prompted to enter a one-time password.
-
-#### 3. Enable TOTP: During the signup or login process, you can enable TOTP for additional security.
-
-#### 4. Log Out: Securely log out of your session.
-
 
 ## Project Structure
 
