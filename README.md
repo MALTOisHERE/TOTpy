@@ -38,13 +38,13 @@ pip install -r requirements.txt
 ```
 ### 3. Configure the Environment
 
-Create a ```.env``` file in the root directory of the project and add your Flask secret key:
+Create a ```.env``` file in the root directory of the project and add your TOTpy secret key:
 
 ```env
 SECRET_KEY=your_secret_key_here
 ```
 
-Replace ```your_secret_key_here``` with a strong, random string. This key is used to securely sign session cookies and other sensitive data.
+Replace ```your_secret_key_here``` with a strong, random string.
 
 ### 4. Run the Application
 
