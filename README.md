@@ -2,7 +2,6 @@
 
 **TOTPY** is a lightweight and interactive authentication interface that demonstrates the implementation of **Time-Based One-Time Password (TOTP)** Multi-Factor Authentication (MFA). It’s designed as a learning tool or a starting point for integrating TOTP-based MFA into your applications.
 
----
 
 ## Features
 
@@ -11,8 +10,6 @@
 - **Flask-Based**: Built with Python and Flask for simplicity and flexibility.
 - **Environment Configuration**: Easy setup using a `.env` file for sensitive configurations.
 
----
-
 ## Prerequisites
 
 Before running the project, ensure you have the following installed:
@@ -20,7 +17,6 @@ Before running the project, ensure you have the following installed:
 - Python 3.7 or higher
 - `pip` (Python package manager)
 
----
 
 ## Getting Started
 
@@ -29,8 +25,8 @@ Before running the project, ensure you have the following installed:
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/TOTPY.git
-cd totpy
+git clone https://github.com/MALTOisHERE/TOTpy.git
+cd TOTpy
 ```
 ### 2. Install Dependencies
 
@@ -66,17 +62,18 @@ The application should now be running at ```http://127.0.0.1:5000/```.
 
 ## Usage
 
-### 1. Sign Up: Create a new account by visiting the signup page.
+#### 1. Sign Up: Create a new account by visiting the signup page.
 
-### 2. Log In: Use your credentials to log in. If TOTP is enabled, you’ll be prompted to enter a one-time password.
+#### 2. Log In: Use your credentials to log in. If TOTP is enabled, you’ll be prompted to enter a one-time password.
 
-### 3. Enable TOTP: During the signup or login process, you can enable TOTP for additional security.
+#### 3. Enable TOTP: During the signup or login process, you can enable TOTP for additional security.
 
-### 4. Log Out: Securely log out of your session.
+#### 4. Log Out: Securely log out of your session.
 
 
 ## Project Structure
 
+```
 TOTpy/
 ├── main.py                # Entry point for the Flask application
 ├── requirements.txt       # List of Python dependencies
@@ -86,6 +83,7 @@ TOTpy/
 ├── templates/             # HTML templates
 │   └── ...
 └── README.md              # Project documentation
+```
 
 
 
